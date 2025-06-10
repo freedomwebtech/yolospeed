@@ -12,7 +12,7 @@ from ultralytics.solutions.solutions import BaseSolution
 from ultralytics.utils.plotting import Annotator, colors
 
 # Google API Key
-GOOGLE_API_KEY = "AIzaSyCOvtWthmSJlH1Tlq9_IPCwhB24rHsYBQI"
+GOOGLE_API_KEY = ""
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 class SpeedEstimator(BaseSolution):
